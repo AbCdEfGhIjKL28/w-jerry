@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 云 -->
+  <path fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2"
+        d="M46 42c0 4.6-3.7 8.3-8.3 8.3H16.3c-5.5 0-10-4.5-10-10s4.5-10 10-10c0.8 0 1.6 0.1 2.3 0.3
+        c1.4-4.3 5.5-7.3 10.2-7.3c5.8 0 10.5 4.7 10.5 10.5c0 0.6 0 1.2-0.1 1.8C44.4 37.1 46 39.3 46 42z"/>
+  <!-- 雪花 -->
+  <path fill="#FFFFFF" d="M26 46l2 2l-2 2l-2-2z"/>
+  <path fill="#FFFFFF" d="M32 42l2 2l-2 2l-2-2z"/>
+  <path fill="#FFFFFF" d="M38 46l2 2l-2 2l-2-2z"/>
+  <path fill="#FFFFFF" d="M30 50l2 2l-2 2l-2-2z"/>
+  <path fill="#FFFFFF" d="M34 50l2 2l-2 2l-2-2z"/>
+</svg>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球天气查询</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="输入城市名 (中英文均可)" autocomplete="off">
+            <button id="searchBtn">查询</button>
+        </div>
+        
+        <div class="weather-info">
+            <div class="location">
+                <span id="locationText">请输入城市名称</span>
+                <span id="countryFlag"></span>
+            </div>
+            
+            <div class="weather-main">
+                <div id="weatherIcon">🌍</div>
+                <div class="temperature" id="temperature">--°C</div>
+            </div>
+            
+            <div class="description" id="weatherDesc">--</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span>💧 湿度</span>
+                    <span id="humidity">--%</span>
+                </div>
+                <div class="detail-item">
+                    <span>🌬️ 风速</span>
+                    <span id="wind">--km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
